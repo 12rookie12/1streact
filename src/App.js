@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+import Nigga from '../src/component/header.js'
+import logo from './component/assets/nigga1.png';
 import './App.css';
 
 function App() {
-  
+
   return (
+    <>
+    <Nigga/>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img src={logo}>
+      </img>
     </div>
+    </>
+    
   );
 }
 
